@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    </head>
+    <body>
+        <title>Vena Technologies Sign-up page</title>
+        <h1>Vena Technologies Sign-up page</h1>
+        <h3>Software Development Lifecycle</h3>
+        <ol type="i">
+            <li>Planning</li>
+            <li>System Design</li>
+            <li>Implementation</li>
+            <li>Testing</li>
+            <li>Deployment</li>
+            <li>Maintenance and Support</li>
+        </ol>
+        <!-- Image -->
+        <img src="https://images.pexels.com/photos/4385446/pexels-photo-4385446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpeg" width="400" height="300">
+        <br><br>
+        <h2>Developers in the Company</h2>
+        <table border="1">
+            <!-- Table header-->
+             <thead>
+                <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile Number</th>
+                <th>Email Address</th>
+                </tr>
+             </thead>
+             <!-- Table body-->
+              <tbody>
+                <tr>
+                    <td>Lathitha Vena</td>
+                    <td>37 Roxanne Street, Mfuleni, Cape Town</td>
+                    <td>066 440 8494</td>
+                    <td>lathithavena3@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Tricia Mangala</td>
+                    <td>45 Jane Street, Eerteriver, Cape Town</td>
+                    <td>076 856 9043</td>
+                    <td>triciamangala6@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>Kwelerha Street, Mfuleni, Cape Town</td>
+                    <td>067 430 8895</td>
+                    <td>janesmith11@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Tamia Woods</td>
+                    <td>Eastland Street, Pinelands, Joburg</td>
+                    <td>011 856 9045</td>
+                    <td>tamiawoods45@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Janeeva Grant</td>
+                    <td>Saltriver Street, Lansdowne, Joburg</td>
+                    <td>011 645 7890</td>
+                    <td>janeevagrant21@gmail.com</td>
+                </tr>
+              </tbody>
+        </table>
+        <!-- Registration Form -->
+        <h2>Registration Form</h2>
+        <form action="/submit" method="POST">
+            <!-- Full Name -->
+             <label for="name">Full Name:</label>
+             <input type="text" id="name" name="name" required>
+             <br><br>
+            <!-- Email Address -->
+             <label for="email">Email Address:</label>
+             <input type="email" id="email" name="email" required>
+             <br><br>
+            <!-- Country Dropdown -->
+              <label for="country">Country:</label>
+              <select id="country" name="country" required>
+                <option value="south africa">South Africa</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="kenya">Kenya</option>
+                <option value="other">Other</option>
+              </select>
+              <br><br>
+                <label for="other">Other:</label>
+                <input type="text" id="country" name="country">
+                <br><br>
+            <!-- Gender Radio Buttons -->
+              <label>Gender</label>
+              <input type="radio" id="male" name="gender" value="male" required>
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" value="female">
+              <label for="female">Female</label>
+              <input type="radio" id="other" name="gender" value="other">
+              <label for="other">Other</label>
+              <input type="text" name="gender" value="">
+              <br><br>
+            <!-- Hobbies -->
+               <label>Hobbies</label>
+               <br><br>
+               <input type="checkbox" id="dance" name="hobbies" value="dance">
+               <label for="dance">Dance</label>
+               <br><br>
+               <input type="checkbox" id="coding" name="hobbies" value="coding">
+               <label for="Coding">Coding</label>
+               <br><br>
+               <input type="checkbox" id="reading" name="hobbies" value="reading">
+               <label for="reading">Reading</label>
+               <br><br>
+               <label for="other">Other:</label>
+               <input type="text" id="hobby" name="hobby">
+               <br><br>
+            <!-- Submit Button -->
+               <button type="submit">Register</button>
+            </form>
+    </body>
+</html>
